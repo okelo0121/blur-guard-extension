@@ -26,3 +26,22 @@ The icons for this extension are located in the `images` directory. They are:
 *   `images/icon128.png`
 
 You can replace these with your own icons if you wish. The current icons are temporary and generated via AI.
+
+### Deploying to the Chrome Web Store
+
+1. **Prepare Your Extension Files:**
+   - Ensure your `manifest.json` file has the correct version number and that all icon paths are correct.
+   - Remove any temporary or development-related files that are not needed for the extension to function (e.g., `.git`, `README.md` (optional), development notes).
+
+2. **Package Your Extension:**
+   - In your file explorer, select all the extension files (`manifest.json`, `content.js`, `popup.html`, `styles.css`, etc.) and the `images` folder.
+   - Right-click and choose "Compress" or "Send to > Compressed (zipped) folder" to create a `.zip` file. This single `.zip` file is what you will upload to the store.
+
+3. **Publish on the Chrome Web Store:**
+   - Go to the [Chrome Developer Dashboard](https://chrome.google.com/webstore/developer/dashboard).
+   - Sign in with your Google account. You will need to pay a one-time registration fee if this is your first time.
+   - Click "Add new item" and upload the `.zip` file you created.
+   - Fill out the required store listing information, including the extension's name, description, icons, and promotional images.
+   - Submit the extension for review. The review process can take a few days.
+
+Once approved, your extension will be live on the Chrome Web Store!
