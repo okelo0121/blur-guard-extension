@@ -14,7 +14,6 @@ Sema Salama is a browser extension that detects and blurs local-language hate sp
 *   **Cross-Browser Support:** Compatible with Chrome and Firefox.
 *   **Modern Stack:** Built with React, TypeScript, and Tailwind CSS for a robust and maintainable codebase.
 
-
 ## Project Structure
 
 ```
@@ -69,11 +68,10 @@ vite.config.ts        # Vite build configuration
 *   `npm run lint` - Run ESLint to check code quality
 *   `npm run preview` - Preview the production build
 
-
 ## Using the Extension
 
 1. **Automatic Blurring of Abusive Text**  
-   The extension scans web pages in real-time and automatically blurs comments or text that contain abusive words from the built-in dataset or your personal blocklist. This works on social media platforms as well as other websites.
+   The extension scans web pages in real-time and automatically blurs comments or text that contain abusive words from the built-in dataset or your personal blocklist. This works on social media platforms and most other websites.
 
 2. **Reveal Blurred Comments**  
    For blurred text, a "👁 Reveal" button appears. Click it to temporarily view the original content. Once revealed, the text remains visible until you navigate away or refresh the page.
@@ -82,11 +80,10 @@ vite.config.ts        # Vite build configuration
    Open the extension popup to add new words or remove existing ones from your custom blocklist. Words in your blocklist are automatically blurred across all supported sites.
 
 4. **View and Clear Abuse Logs**  
-   The extension keeps a log of abusive comments it detects, including the abuser (if identifiable), the words used, the page URL, and the timestamp. Access this log in the popup under the "Abuse Log" section. Use the "Clear Abuse Log" button to delete all entries whenever needed.
+   The extension keeps a log of abusive comments it detects, including the abuser (if identifiable), the words used, the page URL, and the timestamp. Access this log in the popup under the "Abuse Log" section and clear entries as needed.
 
 5. **Privacy-Focused**  
    All processing happens locally in your browser. No data is ever sent to a server, ensuring that your personal blocklist and abuse logs remain private.
-
 
 ## Installation
 
@@ -159,3 +156,15 @@ Contributions are welcome! Please ensure code passes linting and type checking:
 npm run lint
 npm run typecheck
 ```
+
+## Contributors
+
+| Name               | Role                | Email                       |
+|--------------------|---------------------|-----------------------------|
+| Viola Chepchirchir | Backend Development | violachepchirchir00@gmail.com     |
+| Sunday Mapunda     | Frontend Developer  | sunnyjumapili@gmail.com           |
+| Okelo Angelo       | Backend Developer   | okelloulak2004@gmail.com          |
+| Sharon Nkatha      | UI/UX Designer      | nkathasharon42@gmail.com           |
+| Einstein Dipondo   | UI/UX Designer      | einstenmarto30@gmail.com           |
+| Raymond Mbai       | Database Engineer   | Salimr80@yahoo.com                 |
+| Nelly Longesele    | Backend Development | N/A                                |
