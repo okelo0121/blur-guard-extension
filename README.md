@@ -1,8 +1,8 @@
 # 🛡️ Sema Salama (Speak Safely)
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Live-green?style=for-the-badge&logo=google-chrome)](https://chrome.google.com/webstore/detail/your-extension-id-here)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Active-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chromewebstore.google.com/detail/lekjghdbiglnoeffhmbnaahcijehogln?utm_source=item-share-cb)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Maintained-orange?style=for-the-badge)](https://github.com/YourUsername/Sema-Salama)
+[![Platform](https://img.shields.io/badge/Platform-Chrome%20|%20Edge%20|%20Firefox-lightgrey?style=for-the-badge)](https://github.com/YourUsername/Sema-Salama)
 
 > **"Safety is not a slogan. It’s something we build — together — with courage and code."**
 
@@ -11,7 +11,7 @@
 ---
 
 ## 🚨 The Problem
-African female leaders, journalists, and activists face severe online harassment. Global platforms rely on AI that is trained primarily on Western English datasets.
+African female leaders, journalists, and activists face severe online harassment. Global platforms rely on AI trained primarily on Western English datasets.
 * **The Gap:** Algorithms fail to flag localized slurs (e.g., specific derogatory terms in Sheng or tribal dialects).
 * **The Impact:** Women are silenced, traumatized, or forced to leave digital public squares.
 
@@ -54,9 +54,13 @@ This project was built using a "Safety by Design" methodology:
 ## 🚀 Installation
 
 ### Option A: Install from Chrome Web Store (Recommended)
-1.  Visit the **[Sema Salama Store Page](#)** *(Link pending approval)*.
-2.  Click **"Add to Chrome"**.
-3.  Pin the extension to your toolbar.
+The extension is fully reviewed and approved by Google.
+
+[![Download from Chrome Web Store](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQzWRCzO2/guouRb5B58AntF5eT1F9.png)](https://chromewebstore.google.com/detail/lekjghdbiglnoeffhmbnaahcijehogln?utm_source=item-share-cb)
+
+1.  **[Click here to install Sema Salama](https://chromewebstore.google.com/detail/lekjghdbiglnoeffhmbnaahcijehogln?utm_source=item-share-cb)**.
+2.  Click the blue **"Add to Chrome"** button.
+3.  Pin the shield icon 🛡️ to your browser toolbar for easy access.
 
 ### Option B: Developer Mode (Run from Source)
 1.  Clone this repository:
@@ -73,7 +77,7 @@ This project was built using a "Safety by Design" methodology:
 
 We are evolving Sema Salama from a browser extension to a full Digital Safety Ecosystem.
 
-* **Phase 1 (Current):** Browser Extension for Desktop protection.
+* **Phase 1 (Complete):** Browser Extension for Desktop protection.
 * **Phase 2 (In Progress):** **Android Accessibility App**. Using Android's `AccessibilityService` API to provide system-wide protection on mobile (WhatsApp, SMS, Twitter App).
 * **Phase 3:** **Python API & Cloud Intelligence**. Moving the lexicon to a REST API (FastAPI) to allow for real-time updates of new hate speech trends without app updates.
 
